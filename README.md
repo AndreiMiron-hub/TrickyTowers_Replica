@@ -100,7 +100,7 @@ Project Link: [https://github.com/AndreiMiron-hub/TrickyTowers_Replica](https://
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[product-screenshot1]: ReadMeImages/MainMenuScreenshot.png
+[product-screenshot]: ReadMeImages/MainMenuScreenshot.png
 [optionsMenu-screenshot]: ReadMeImages/OptionsMenuScreenshot.png
 [gameLoop1-screenshot]: ReadMeImages/GameLoopScreenshot.png
 [gameLoop2-screenshot]: ReadMeImages/GameLoopScreenshot2.png
