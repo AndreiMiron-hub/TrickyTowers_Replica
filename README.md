@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/AndreiMiron-hub/TrickyTowers_Replica">
-    <img src="ReadMeImages/logo.png" alt="Logo" width="80" height="80">
+    <img src="ReadMeImages/logo.png" alt="Logo" width="320" height="160">
   </a>
 
   <h3 align="center">Tricky Towers Game Replica</h3>
@@ -39,6 +39,20 @@
 Tricky Towers is an interesting reinterpretation of the classic Tetris game where instead of completely filling up the horizontal lines you have to build the tower as high as it can go in a certain ammount of time or endless depending on the gamemode.
 
 This replica intends to recreate its endless mode from scratch and is nothing more than an exercise project for me to dabble into Unity development.
+
+First steps taken in were to familiarize myself with basic menu settings and creating a basic user interface for the main settings needed.
+[![Options Menu Screen Shot][optionsMenu-screenshot]](https://github.com/AndreiMiron-hub/TrickyTowers_Replica)
+
+- As for the game loop, I decided to implement the endless game mode as it was the most straight forward part of the game.
+- The pieces that will be given to you will be random and your main purpose is to build as high as you can go. Once in its place on the log the piece is not frozen. It will still be affected by gravitation which means that it can fall off later and the hight of the tower will decrease. The height of the tower represents the score you accumulated each round.
+- Each block placed that still stands on the log will give you a certain amount of points. The points earned by placing pieces will be used as currency for activating the spells.
+- The spells implemented in this iteration of the game will allow you to:
+  1. Rotate the piece that is falling
+  2. "Burn" the last piece placed on the log in the case you decide it you did not place it where you initially intended.
+  3. "Tie" the blocks already placed together and the gravitation will not affect each piece individually but the whole built block as a whole.
+
+[![Game Loop 1 Screen Shot][gameLoop1-screenshot]]()
+[![Game Loop 2 Screen Shot][gameLoop2-screenshot]]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,4 +100,7 @@ Project Link: [https://github.com/AndreiMiron-hub/TrickyTowers_Replica](https://
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[product-screenshot]: ReadMeImages/MainMenuScreenshot.png
+[product-screenshot1]: ReadMeImages/MainMenuScreenshot.png
+[optionsMenu-screenshot]: ReadMeImages/OptionsMenuScreenshot.png
+[gameLoop1-screenshot]: ReadMeImages/GameLoopScreenshot.png
+[gameLoop2-screenshot]: ReadMeImages/GameLoopScreenshot2.png
